@@ -1,0 +1,9 @@
+[user]
+	name = Michael Dennis
+	email = michaeljdennis@gmail.com
+[color]
+	ui = true
+[alias]
+	st = status
+[core]
+	excludesfile = ~/.config/git/ignore
