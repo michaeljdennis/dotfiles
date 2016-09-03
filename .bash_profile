@@ -6,7 +6,7 @@ export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 
 # MAMP PHP
-export PATH=/Applications/MAMP/bin/php/php7.0.9/bin:$PATH
+export PATH=/Applications/MAMP/bin/php/php7.0.10/bin:$PATH
 
 # Composer global bins
 export PATH=~/.composer/vendor/bin:$PATH
