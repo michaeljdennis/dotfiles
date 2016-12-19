@@ -5,6 +5,9 @@ source ~/.config/git/completion
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 
+# Protoc
+export PATH=$HOME/opt/protoc-3.1.0/bin:$PATH
+
 # MAMP PHP
 export PATH=/Applications/MAMP/bin/php/php7.0.10/bin:$PATH
 
