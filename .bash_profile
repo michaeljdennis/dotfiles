@@ -1,3 +1,6 @@
+# PS1
+export PS1='\[\033[1;34m\]\u@\h:\[\033[32m\]\w\[\033[33m\]$(__git_ps1 " (%s)")\[\033[00m\] $ '
+
 # Git
 source ~/.config/git/git-completion.bash
 source ~/.config/git/git-prompt.sh
