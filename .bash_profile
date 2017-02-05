@@ -15,7 +15,7 @@ export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
 export PATH=/opt/apache-maven-3.3.9/bin:$PATH
 
 # MAMP PHP
-export PATH=/Applications/MAMP/bin/php/php7.0.10/bin:$PATH
+export PATH=/Applications/MAMP/bin/php/php7.1.0/bin:$PATH
 
 # Composer global bins
 export PATH=~/.composer/vendor/bin:$PATH
