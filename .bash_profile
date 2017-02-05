@@ -23,6 +23,6 @@ export PATH=~/.composer/vendor/bin:$PATH
 # Aliases
 alias h="cd ~"
 alias g="cd $GOPATH/src"
-alias l="ls -lh"
-alias ll="ls -alh"
+alias l="ls -lhF"
+alias ll="ls -alhF"
 alias ..="cd .."
