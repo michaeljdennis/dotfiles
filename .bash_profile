@@ -1,5 +1,6 @@
 # Git
-source ~/.config/git/completion
+source ~/.config/git/git-completion.bash
+source ~/.config/git/git-prompt.sh
 
 # Go
 export GOPATH=$HOME/go
