@@ -18,10 +18,12 @@ export PATH=$GOPATH/bin:$PATH
 export PATH=$HOME/opt/protoc-3.1.0/bin:$PATH
 
 # Java
-export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
+export JAVA_HOME="$(/usr/libexec/java_home)"
 
 # Maven
-export PATH=/opt/apache-maven-3.3.9/bin:$PATH
+export M2_HOME=/opt/apache-maven-3.3.9/
+export M2=$M2_HOME/bin
+export PATH=$M2:$PATH
 
 # MAMP PHP
 export PATH=/Applications/MAMP/bin/php/php7.1.1/bin:$PATH
