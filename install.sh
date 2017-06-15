@@ -7,6 +7,13 @@ else
     echo "~/.bash_profile already exists"
 fi
 
+if [ ! -f ~/.inputrc ]; then
+    echo "Linking ~/.inputrc"
+    ln -sf ~/dotfiles/.inputrc ~/.inputrc
+else
+    echo "~/.inputrc already exists"
+fi
+
 if [ ! -f ~/.config/git/config ]; then
     echo "Linking ~/.config/git/config"
     ln -sf ~/dotfiles/.config/git/config ~/.config/git/config
