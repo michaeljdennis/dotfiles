@@ -3,6 +3,11 @@ if [ -f ~/.bash_profile_tokens ]; then
     source ~/.bash_profile_tokens
 fi
 
+# Source .gcloudrc
+if [ -f ~/.gcloudrc ]; then
+    source ~/.gcloudrc
+fi
+
 # PS1
 export PS1='\[\033[1;34m\]\u@\h:\[\033[32m\]\w\[\033[33m\]$(__git_ps1 " (%s)")\[\033[00m\] $ '
 
