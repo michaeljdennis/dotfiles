@@ -41,10 +41,3 @@ if [ ! -f ~/.config/git/git-prompt.sh ]; then
 else
     echo "~/.config/git/git-prompt.sh already exists"
 fi
-
-if [ ! -f ~/.eslintrc ]; then
-    echo "Linking ~/.eslintrc"
-    ln -sf ~/dotfiles/.eslintrc ~/.eslintrc
-else
-    echo "~/.eslintrc already exists"
-fi
