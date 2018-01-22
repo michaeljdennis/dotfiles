@@ -27,17 +27,3 @@ if [ ! -f ~/.config/git/ignore ]; then
 else
     echo "~/.config/git/ignore already exists"
 fi
-
-if [ ! -f ~/.config/git/git-completion.bash ]; then
-    echo "Copying ~/.config/git/git-completion.bash"
-    cp /usr/local/git/contrib/completion/git-completion.bash ~/.config/git/git-completion.bash
-else
-    echo "~/.config/git/git-completion.bash already exists"
-fi
-
-if [ ! -f ~/.config/git/git-prompt.sh ]; then
-    echo "Copying ~/.config/git/git-prompt.sh"
-    cp /usr/local/git/contrib/completion/git-prompt.sh ~/.config/git/git-prompt.sh
-else
-    echo "~/.config/git/git-prompt.sh already exists"
-fi
