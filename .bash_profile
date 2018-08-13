@@ -41,9 +41,12 @@ export PATH=/Applications/MAMP/bin/php/php7.2.1/bin:$PATH
 # Composer global bins
 export PATH=~/.composer/vendor/bin:$PATH
 
+# Colorized output for ls command
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+
 # Aliases
 alias h="cd ~"
 alias g="cd $GOPATH/src"
-alias l="ls -lhF"
-alias ll="ls -alhF"
+alias l="ls -lhFG"
+alias ll="ls -alhFG"
 alias ..="cd .."
