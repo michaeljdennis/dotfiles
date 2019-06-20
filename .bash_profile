@@ -36,7 +36,8 @@ export M2=$M2_HOME/bin
 export PATH=$M2:$PATH
 
 # MAMP PHP
-export PATH=/Applications/MAMP/bin/php/php7.2.10/bin:$PATH
+# export PATH=/Applications/MAMP/bin/php/php7.3.1/bin:$PATH
+export PATH=/Applications/MAMP/bin/php/php7.2.14/bin:$PATH
 
 # Composer global bins
 export PATH=~/.composer/vendor/bin:$PATH
