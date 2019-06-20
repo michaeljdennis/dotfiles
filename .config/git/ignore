@@ -1,4 +1,5 @@
 .DS_Store
+.idea
+.vscode
 .php_cs.cache
 .sass-cache
-.vscode
