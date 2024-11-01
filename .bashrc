@@ -55,3 +55,19 @@ iframe_interval() {
 frame_types() {
     ffprobe -v fatal -show_entries frame=coded_picture_number,media_type,pict_type,key_frame -of default=noprint_wrappers=1:nokey=0 -select_streams v $1 | more
 }
+
+cfnlint() {
+    if [[ -z "$@" ]]
+    then
+        echo error: specify one or more cloudformation files
+        return 1
+    fi
+
+    files=""
+    for arg in "$@"
+    do
+        files="${files}/data/${arg} "
+    done
+
+    docker run --rm -v `pwd`:/data cfn-lint:latest $files
+}
